@@ -1,13 +1,12 @@
-import Card from '../components/Card';
+import CardList from '../components/CardList';
 import './App.css';
+import { robots } from '../robots';
+
 
 const App = () => {
   return (
     <div>
-      <Card id={"1"} name={"Leanne Graham"} email={"Sincere@april.biz"} />
-      <Card id={"1"} name={"Leanne Graham"} email={"Sincere@april.biz"} />
-      <Card id={"1"} name={"Leanne Graham"} email={"Sincere@april.biz"} />
-      <Card id={"1"} name={"Leanne Graham"} email={"Sincere@april.biz"} />
+      <CardList robots={robots} />
     </div>
   );
 }
