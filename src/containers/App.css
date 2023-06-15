@@ -7,4 +7,9 @@
 
 h1, h2 {
   font-family: 'SEGA LOGO FONT';
+  color: rgb(36, 35, 129);
+}
+
+h1 {
+  font-size: 4rem !important;
 }
